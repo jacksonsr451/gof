@@ -1,5 +1,5 @@
 from src.factory_method.empresa import Empresa
-from src.factory_method.prodtuto_x_salada import ProdutoXSalada
+from src.factory_method.produto_x_salada import ProdutoXSalada
 
 
 class Lanchonete(Empresa):
