@@ -2,4 +2,4 @@
 
 ## Criação
 
-1 - [Singleton](src/singleton/README.md)
+1 - [Singleton](src/singleton/)
