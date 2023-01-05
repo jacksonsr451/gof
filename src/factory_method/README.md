@@ -82,8 +82,8 @@ class Empresa(ABC):
 E da mesma forma que fizemos com o Produto, iremos criar uma FÁbrica para esta nossa Empressa.
 
 ```python
-from src.factory_method.empresa import Empresa
-from src.factory_method.prodtuto_x_salada import ProdutoXSalada
+from empresa import Empresa
+from prodtuto_x_salada import ProdutoXSalada
 
 
 class Lanchonete(Empresa):
