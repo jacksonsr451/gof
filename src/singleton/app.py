@@ -3,7 +3,7 @@ from src.singleton.janela import Janela
 
 class App:
     def __init__(self) -> None:
-        self.janela = Janela.get_instance()
+        self.janela = Janela()
  
         print(self.janela.name)
 
