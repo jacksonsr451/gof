@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gof"
+version = "0.1.0"
+description = ""
+authors = ["jacksonsr45 <jackson.severino.rocha@escola.pr.gov.br>"]
+readme = "README.md"
+packages = [{include = 'src'}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.11.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
