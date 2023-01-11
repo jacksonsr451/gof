@@ -21,3 +21,7 @@ De acordo com o livro: "Padrões de Projeto: soluções reutilizáveis de softwa
 4 - [Builder](src/builder/)
 
 5 - [Prototype](src/prototype/)
+
+## Estruturais
+
+1 - [Bridge](src/bridge/)
