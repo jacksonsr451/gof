@@ -25,3 +25,5 @@ De acordo com o livro: "Padrões de Projeto: soluções reutilizáveis de softwa
 ## Estruturais
 
 1 - [Bridge](src/bridge/)
+
+2 - [Adapter](src/adapter/)
