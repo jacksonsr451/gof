@@ -4,7 +4,6 @@ from src.builder.produto import Produto
 
 
 class ProdutoBuilder(ABC):
-    
     @abstractmethod
     def set_tipo(self, tipo: str) -> None:
         """"""

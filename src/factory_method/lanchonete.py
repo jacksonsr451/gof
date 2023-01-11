@@ -3,6 +3,9 @@ from src.factory_method.produto_x_salada import ProdutoXSalada
 
 
 class Lanchonete(Empresa):
-
-    def cadastrar_x_salada(self, produto: str, valor: float, descricao: str) -> ProdutoXSalada:
-        return ProdutoXSalada(produto=produto, valor=valor, descricao=descricao)
+    def cadastrar_x_salada(
+        self, produto: str, valor: float, descricao: str
+    ) -> ProdutoXSalada:
+        return ProdutoXSalada(
+            produto=produto, valor=valor, descricao=descricao
+        )

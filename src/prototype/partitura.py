@@ -1,4 +1,5 @@
 from types import NoneType
+
 from src.prototype.do import Do
 from src.prototype.fa import Fa
 from src.prototype.la import La
@@ -21,9 +22,8 @@ class Partitura:
             'Fá': Fa(),
             'Sol': Sol(),
             'Lá': La(),
-            'Si': Si()
+            'Si': Si(),
         }
 
     def get_nota(self, nota: str) -> NotaMusical:
         return self.notas.get(nota).clone()
-    

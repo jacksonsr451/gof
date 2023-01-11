@@ -12,8 +12,12 @@ class App:
     def __init__(self) -> None:
         self.empresa = Lanchonete()
 
-        self.x_salada = self.empresa.cadastrar_x_salada('X-Salada', 12.50, 'O melhor da minha casa!')
-        self.humburquer = self.empresa.cadastrar_humburquer('Humburquer', 10.50, 'Humburquer caseiro!')
+        self.x_salada = self.empresa.cadastrar_x_salada(
+            'X-Salada', 12.50, 'O melhor da minha casa!'
+        )
+        self.humburquer = self.empresa.cadastrar_humburquer(
+            'Humburquer', 10.50, 'Humburquer caseiro!'
+        )
 
         self.x_salada.exibe_produto()
         self.humburquer.exibe_produto()

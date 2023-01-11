@@ -10,8 +10,10 @@ class App:
     def __init__(self) -> None:
         self.empresa = Lanchonete()
 
-        self.produto = self.empresa.cadastrar_x_salada('X-Salada', 12.25, 'O melhor X-Salada da minha casa!')
-        
+        self.produto = self.empresa.cadastrar_x_salada(
+            'X-Salada', 12.25, 'O melhor X-Salada da minha casa!'
+        )
+
         self.produto.exibe_produto()
 
 
